@@ -10,11 +10,43 @@ body {
     margin-bottom: 10%;
 }
 
+#startup {
+    animation-duration: 1s;
+    animation-name: slideInFromTop;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translate3d(0, -50%, 0);
+        opacity: 0;
+      }
+    
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+      }
+}
+
 #homeSel:hover, #aboutSel:hover, #resumeSel:hover, #projectsSel:hover {
     border-bottom: 2px solid green;
+}
+
+#titleLink:hover {
+    color: green;
 }
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+#linkLogo {
+    width: 55%;
+    height: auto;
 }
