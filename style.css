@@ -8,6 +8,7 @@ body {
     font-family: 'Courier New', monospace;
     position: fixed;
     margin-bottom: 10%;
+    z-index: 3;
 }
 
 #startup {
@@ -15,6 +16,7 @@ body {
     animation-name: slideInFromTop;
     opacity: 0;
     animation-fill-mode: forwards;
+    z-index: 2;
 }
 
 @keyframes slideInFromTop {
