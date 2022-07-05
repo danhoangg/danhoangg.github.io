@@ -59,10 +59,27 @@ a, a:hover, a:focus, a:active {
 
 .skillBox {
     background-color: rgb(30, 30, 30);
-    padding-top: 25px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
     margin-left: 5%;
     margin-right: 2%;
+}
+
+.skillText {
+    font-size: 1.7vw;
+}
+
+.skillTitle {
+    font-size: 2.5vw;
+}
+
+@media screen and (min-width:  1200px) {
+    .skillText {
+        font-size: 20px;
+    }
+    .skillTitle {
+        font-size: 35px;
+    }
 }
