@@ -60,3 +60,8 @@ a, a:hover, a:focus, a:active {
 .text-green {
     color: rgb(0, 151, 0);
 }
+
+.skillBox {
+    padding-left: 5%;
+    padding-right: 5%;
+}
