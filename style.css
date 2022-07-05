@@ -35,10 +35,6 @@ body {
       }
 }
 
-#homepage {
-    min-height: 100vh;
-}
-
 #homeSel:hover, #aboutSel:hover, #resumeSel:hover, #projectsSel:hover {
     border-bottom: 2px solid green;
 }
@@ -62,6 +58,11 @@ a, a:hover, a:focus, a:active {
 }
 
 .skillBox {
-    padding-left: 5%;
-    padding-right: 5%;
+    background-color: rgb(30, 30, 30);
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 2%;
 }
