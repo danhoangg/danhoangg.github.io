@@ -52,3 +52,7 @@ a, a:hover, a:focus, a:active {
     width: 70px;
     height: auto;
 }
+
+.text-green {
+    color: rgb(0, 151, 0);
+}
